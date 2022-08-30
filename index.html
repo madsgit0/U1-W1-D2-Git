@@ -4,9 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Tables</title>
+    <style>
+      table {
+        width: 100%;
+      }
+      td {
+        text-align: center;
+        border: 1px solid black;
+      }
+    </style>
   </head>
   <body>
-    <h1>Ciao</h1>
+    <table>
+      <caption>
+        Registry
+      </caption>
+      <tr>
+        <th>Nome</th>
+        <th>Cognome</th>
+        <th>Presenza</th>
+        <th>Webcam</th>
+      </tr>
+      <tr>
+        <td colspan="3" rowspan="2">Mario</td>
+        <td>Rossi</td>
+        <td>☑︎</td>
+        <td>☑︎</td>
+      </tr>
+
+      <tr>
+        <td>Mario</td>
+        <td>Rossi</td>
+        <td>☑︎</td>
+        <td>☑︎</td>
+      </tr>
+
+      <tr>
+        <td>Mario</td>
+        <td>Rossi</td>
+        <td>☑︎</td>
+        <td>☑︎</td>
+      </tr>
+    </table>
   </body>
 </html>
